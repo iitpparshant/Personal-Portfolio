@@ -1,0 +1,100 @@
+.containerb{
+    /* display: flex; */
+    /* background-color: #030330; */
+    color: white;
+    /* height: 800px; */
+    margin: 0;
+    padding: 0;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 95px;
+}
+.firstsection div{
+    width: 40%;
+}
+.leftsection{
+    /* background-color: red; */
+    /* width: 40%; */
+    font-weight: 500;
+    font-size: 2rem;
+}
+.leftsection .buttonsf{
+    display: flex;
+    gap: 15px;
+    width: 100vh;
+}
+.leftsection .btn{
+    padding: 15px;
+    background: red;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.leftsection .btn:hover {
+    background: green;
+}
+
+.rightsection{
+    /* background-color: aqua; */
+    width: 40%;
+    /* height:800px ; */
+}
+.rightsection img{
+    width: 600px;
+    height: 400px;
+    border: 2px solid rgb(159, 159, 179);
+    box-shadow: 6px 6px 10px rgba(219, 210, 210, 0.5);
+}
+.containerb hr{
+    border: 0;
+    height: 2px;
+    background: yellow;
+    margin:33px 85px;
+}
+.secondsection{
+    height: 80vh;
+    max-width: 80vw;
+    margin: auto;
+}
+.secondsection h1{
+    font-size: 2rem;
+}
+.secondsection .box{
+    display: flex;
+    background: white;
+    width: 75vw;
+    height: 2px;
+    margin: auto;
+    justify-content: center;
+    /* padding: 0; */
+    gap: 27vh;
+}
+.secondsection .vertical{
+    height: 15vh;
+    background: white;
+    width: 2px;
+    /* margin:0 auto; */
+}
+.vertical img{
+    width: 20px;
+    height: 20px;
+    top: -25px;
+    position: relative;
+}
+.vertical-title{
+    position: relative;
+    top: 16vh;
+    width: 150px;
+    font-size: 1.25rem;
+}
+.vertical-desc{
+    position: relative;
+    top: 18vh;
+    width: 150px;
+    font-size: 0.9rem;
+}

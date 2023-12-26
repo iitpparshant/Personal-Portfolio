@@ -1,0 +1,15 @@
+.footer{
+    background-color: rgb(13, 47, 97);
+}
+.containerf{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    height: 25vh;
+    color: white;
+}
+.footer-bottom{
+    color: white;
+}

@@ -1,0 +1,154 @@
+.about-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    /* background-color: #333; Updated background color */
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    opacity: 0.9;
+    animation: fadeIn 5s forwards;
+    box-shadow: 0 0 15px rgb(190, 10, 10); /* Added box shadow for a subtle effect */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  h2 {
+    color: #ff9900; 
+    border-bottom: 2px solid #ff9900; /* Added a border bottom to the title */
+    padding-bottom: 10px; /* Added padding for better spacing */
+  }
+  
+  section {
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeIn 1s forwards, slideIn 1s forwards; /* Added slideIn animation */
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(20px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  h3 {
+    color: #66ccff; /* Updated section title color */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: #33cc33; /* Updated link color */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Added transition for a smooth color change */
+  }
+  
+  a:hover {
+    color: #cc0000; /* Updated link color on hover */
+    text-decoration: underline;
+  }
+  
+  p {
+    line-height: 1.6;
+    color: #999;
+    opacity: 0;
+    animation: fadeIn 1s forwards, rotateIn 1s forwards; /* Added rotateIn animation */
+  }
+  
+  @keyframes rotateIn {
+    from {
+      transform: rotate(-10deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+  
+ /* ... (your existing CSS) */
+
+.coding-profiles {
+    margin-top: 20px;
+  }
+  
+  .profile-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .profile-card {
+    width: 250px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .profile-icon {
+    font-family: 'YourIconFont'; /* Use the appropriate icon font */
+    font-size: 50px;
+    color: #007bff;
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .profile-info {
+    padding: 10px;
+  }
+  
+  .profile-point {
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .profile-point a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .profile-point a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Define icon fonts or use an icon library like Font Awesome */
+  
+  
+  .leetcode-icon::before {
+    content: "\eab1";
+  }
+  
+  .codeforces-icon::before {
+    content: "\eab2";
+  }
+  
+  .codingninjas-icon::before {
+    content: "\eab3";
+  }
+  

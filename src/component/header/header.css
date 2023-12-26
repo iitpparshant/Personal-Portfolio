@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(5, 5, 71);
+    color: white;
+    height: 80px;
+    align-items: center;
+}
+.left{
+    /* margin: 23px; */
+    font-size: 1.5rem;
+}
+.right  ul {
+    display: flex;
+    gap: 50px;
+    /* margin: 23px; */
+}
+.right ul li{
+    list-style: none;
+}
+.right ul li a{
+    text-decoration:none;
+    color: white;
+}
+.right ul li a:hover{
+    color:greenyellow;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,88 @@
+.containerL{
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 0;
+    height: 80vh;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 20px;
+    width: 80vh;
+    box-shadow: 0 0 15px rgba(224, 231, 224, 0.947);
+}
+.headerL{
+    font-size: 45px;
+}
+
+.underline{
+    width: 100px;
+    height: 5px;
+    background: white;
+    border-radius: 15px;
+    margin: 15px;
+    /* align-items: center; */
+}
+
+.inputs{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.inputs img{
+    height: 25px;
+    width: 25px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    gap: 10px;
+    height: 50px;
+    justify-content: center;
+    background-color: rgb(175, 175, 173);
+    border-radius: 15px;
+}
+.input input{
+    height: 30px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+}
+.forget{
+    padding-left: 62px;
+    margin-top: 50px;
+    color: #cdc4c4;
+}
+.forget span{
+    color: red;
+    cursor: pointer;
+}
+.sunmit-container{
+    display: flex;
+    gap: 30px;
+    margin: auto;
+}
+ .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background: red;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+ }
+ .gray{
+    background-color: aliceblue;
+    color: rgb(89, 86, 86);
+ }
