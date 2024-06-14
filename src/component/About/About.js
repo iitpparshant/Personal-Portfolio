@@ -6,23 +6,26 @@ function About() {
     <div className="about-container">
       <h2>About Me</h2>
       <p>
-        Hello! My name is [Your Name], and I'm a student passionate about [your interests or field of study].
+        Hello! My name is Parshat Verma, and I'm a student passionate about Web Deveplopment.
       </p>
 
       <section>
         <h3>Education</h3>
         <p>
-          I am currently pursuing my [Degree] in [Your Major] at [Your University].
+          I am currently pursuing my B.Tech in Chemical Engineering at Indian Institute of Technology Patna.
         </p>
       </section>
 
       <section>
         <h3>Skills</h3>
         <ul>
-          <li>JavaScript</li>
-          <li>React</li>
+          <li>C++</li>
+          <li>Python</li>
           <li>HTML/CSS</li>
-          {/* Add more skills as needed */}
+          <li>JavaScript</li>
+          <li>React.js</li>
+          <li>Node.js</li>
+          <li>MongoDb</li>
         </ul>
       </section>
 
@@ -32,7 +35,7 @@ function About() {
           Here are some projects I've worked on:
         </p>
         <ul>
-          <li><a href="link-to-project-1">Project 1</a></li>
+          <li><a href="https://github.com/iitpparshant/resume">Project 1</a></li>
           <li><a href="link-to-project-2">Project 2</a></li>
           {/* Add more projects as needed */}
         </ul>
@@ -43,14 +46,28 @@ function About() {
           <div className="profile-card">
             <div className="profile-icon leetcode-icon">&#xeab1;</div>
             <div className="profile-info">
-              <div className="profile-point">&#8226; <a href="https://leetcode.com/your-leetcode-username" target="_blank" rel="noopener noreferrer">LeetCode</a></div>
+              <div className="profile-point">&#8226; <a href="https://leetcode.com/u/iitp_parshant/" target="_blank" rel="noopener noreferrer">LeetCode</a></div>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, voluptate!</p>
           </div>
           <div className="profile-card">
             <div className="profile-icon codeforces-icon">&#xeab2;</div>
             <div className="profile-info">
-              <div className="profile-point">&#8226; <a href="https://codeforces.com/profile/your-codeforces-handle" target="_blank" rel="noopener noreferrer">CodeSafe</a></div>
+              <div className="profile-point">&#8226; <a href="https://codeforces.com/profile/your-codeforces-handle" target="_blank" rel="noopener noreferrer">Geeks For Geeks</a></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, libero!</p>
+          </div>
+          <div className="profile-card">
+            <div className="profile-icon codeforces-icon">&#xeab2;</div>
+            <div className="profile-info">
+              <div className="profile-point">&#8226; <a href="https://codeforces.com/profile/your-codeforces-handle" target="_blank" rel="noopener noreferrer">Codechef</a></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, libero!</p>
+          </div>
+          <div className="profile-card">
+            <div className="profile-icon codeforces-icon">&#xeab2;</div>
+            <div className="profile-info">
+              <div className="profile-point">&#8226; <a href="https://codeforces.com/profile/your-codeforces-handle" target="_blank" rel="noopener noreferrer">Codeforce</a></div>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, libero!</p>
           </div>
@@ -61,7 +78,13 @@ function About() {
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
-          {/* Add more profile cards as needed */}
+          <div className="profile-card">
+            <div className="profile-icon codingninjas-icon">&#xeab3;</div>
+            <div className="profile-info">
+              <div className="profile-point">&#8226; <a href="https://www.hackerrank.com/profile/parushramverma" target="_blank" rel="noopener noreferrer">HackerRank</a></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
         </div>
       </section>
       <section>

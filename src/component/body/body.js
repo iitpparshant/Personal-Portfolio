@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Typed from 'typed.js';
 import "./body.css";
 import download from '../Assets/download.jpg';
-import download1 from '../Assets/download1.png';
+import download1 from '../Assets/gitlink.png';
 
 function Body() {
     const typedTextRef = useRef(null);
@@ -26,9 +26,9 @@ function Body() {
                     Hi, My name is Parshant Verma and i am passionate in
                     <span ref={typedTextRef}></span>
                     <div className="buttonsf" >
-                        <button className="btn">Download Resume</button>
-                        <button className="btn">Visit Github</button>
-                        <button className="btn">Linkedin</button>
+                        <a className="btn" href="https://drive.google.com/file/d/1hThMJM39SAPgGVT5rd85MhV3Ntvqy_ue/view" rel="noreferrer" target="_blank">Download Resume</a>
+                        <a className="btn" href="https://github.com/iitpparshant" rel="noreferrer" target="_blank" >Visit Github</a>
+                        <a className="btn" href="https://www.linkedin.com/in/parshant-verma-2280a51a0/" rel="noreferrer" target="_blank">Linkedin</a>
                     </div>
                 </div>
                 <div className="rightsection">
@@ -41,9 +41,32 @@ function Body() {
                 <h1>Project</h1>
                 <div className="box">
                     <div className="vertical">
-                        <img src={download1} alt="youtube"></img>
+                    <h1>1</h1>
                         <div className="vertical-title">
-                            Fronted Deloper (2012-2023)
+                            My Portfolio (2023-2024)
+                            <a href="https://github.com/iitpparshant/Personal-Portfolio" target="_blank" rel="noopener noreferrer">
+                                <button>Github Link</button>
+                            </a>
+                            <a href="https://github.com/iitpparshant/movie" target="_blank" rel="noopener noreferrer">
+                                <button>Uploaded Link</button>
+                            </a>
+                        </div>
+                        <div className="vertical-desc">
+                        <div className="skill">HTML,CSS</div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur exercitationem vel molestias sapiente, ut placeat.
+
+                        </div>
+                    </div>
+                    <div className="vertical">
+                    <h1>2</h1>
+                        <div className="vertical-title">
+                            Resume Clone (2023-2024)
+                            <a href="https://github.com/iitpparshant/resume" target="_blank" rel="noopener noreferrer">
+                                <button>Github Link</button>
+                            </a>
+                            <a href="https://resume-lake-front.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                <button>Uploaded Link</button>
+                            </a>
                         </div>
                         <div className="vertical-desc">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur exercitationem vel molestias sapiente, ut placeat.
@@ -51,9 +74,15 @@ function Body() {
                         </div>
                     </div>
                     <div className="vertical">
-                        <img src={download1} alt="youtube"></img>
+                    <h1>3</h1>
                         <div className="vertical-title">
-                            Fronted Deloper (2012-2023)
+                            Movie app Clone (2023-2024)
+                            <a href="https://github.com/iitpparshant/movie" target="_blank" rel="noopener noreferrer">
+                                <button>Github Link</button>
+                            </a>
+                            <a href="https://movie-tau-two.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                <button>Uploaded Link</button>
+                            </a>
                         </div>
                         <div className="vertical-desc">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur exercitationem vel molestias sapiente, ut placeat.
@@ -61,9 +90,15 @@ function Body() {
                         </div>
                     </div>
                     <div className="vertical">
-                        <img src={download1} alt="youtube"></img>
+                    <h1>4</h1>
                         <div className="vertical-title">
-                            Fronted Deloper (2012-2023)
+                            Food Delivery (2024-2024)
+                            <a href="https://github.com/iitpparshant/food_delivery" target="_blank" rel="noopener noreferrer">
+                                <button>Github Link</button>
+                            </a>
+                            <a href="https://food-delivery-zzyz-front.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                <button>Uploaded Link</button>
+                            </a>
                         </div>
                         <div className="vertical-desc">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur exercitationem vel molestias sapiente, ut placeat.
@@ -71,19 +106,15 @@ function Body() {
                         </div>
                     </div>
                     <div className="vertical">
-                        <img src={download1} alt="youtube"></img>
+                    <h1>5</h1>
                         <div className="vertical-title">
-                            Fronted Deloper (2012-2023)
-                        </div>
-                        <div className="vertical-desc">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur exercitationem vel molestias sapiente, ut placeat.
-
-                        </div>
-                    </div>
-                    <div className="vertical">
-                        <img src={download1} alt="youtube"></img>
-                        <div className="vertical-title">
-                            Fronted Deloper (2012-2023)
+                            Spotify Clone (2022-2023)
+                            <a href="https://github.com/iitpparshant/spotifyclone" target="_blank" rel="noopener noreferrer">
+                                <button>Github Link</button>
+                            </a>
+                            <a href="https://spotifyclone-599wflh8i-iitpparshants-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                <button>Uploaded Link</button>
+                            </a>
                         </div>
                         <div className="vertical-desc">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur exercitationem vel molestias sapiente, ut placeat.
@@ -98,11 +129,11 @@ function Body() {
                 <h1>Coding Profile</h1>
                 <div className="box">
                     <div className="vertical">
-                        <img src={download1} alt="youtube"></img>
+                        <h1>1</h1>
                         <div className="vertical-title">
                             Leetcode
-                            <a href="https://leetcode.com/" target="_blank" rel="noopener noreferrer">
-                                <button>Leetcode</button>
+                            <a href="https://leetcode.com/u/iitp_parshant/" target="_blank" rel="noopener noreferrer">
+                            <button>Profile Link</button>
                             </a>
                         </div>
                         <div className="vertical-desc">
@@ -111,11 +142,11 @@ function Body() {
                         </div>
                     </div>
                     <div className="vertical">
-                        <img src={download1} alt="youtube"></img>
+                    <h1>2</h1>
                         <div className="vertical-title">
-                            Geeks for Geeks(GFG)
-                            <a href="https://leetcode.com/" target="_blank" rel="noopener noreferrer">
-                                <button>GFG</button>
+                            Geeks for Geeks
+                            <a href="https://www.geeksforgeeks.org/user/pvee0ec/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user/" target="_blank" rel="noopener noreferrer">
+                            <button>Profile Link</button>
                             </a>
                         </div>
                         <div className="vertical-desc">
@@ -123,11 +154,11 @@ function Body() {
                         </div>
                     </div>
                     <div className="vertical">
-                        <img src={download1} alt="youtube"></img>
+                    <h1>3</h1>
                         <div className="vertical-title">
-                            Fronted Deloper (2012-2023)
-                            <a href="https://leetcode.com/" target="_blank" rel="noopener noreferrer">
-                                <button>Leetcode</button>
+                            Codeforce
+                            <a href="https://codeforces.com/profile/parshant272003" target="_blank" rel="noopener noreferrer">
+                                <button>Profile Link</button>
                             </a>
                         </div>
                         <div className="vertical-desc">
@@ -136,11 +167,11 @@ function Body() {
                         </div>
                     </div>
                     <div className="vertical">
-                        <img src={download1} alt="youtube"></img>
+                    <h1>4</h1>
                         <div className="vertical-title">
-                            Fronted Deloper (2012-2023)
-                            <a href="https://leetcode.com/" target="_blank" rel="noopener noreferrer">
-                                <button>Leetcode</button>
+                            Codechef
+                            <a href="https://www.codechef.com/users/iitp_parshant" target="_blank" rel="noopener noreferrer">
+                            <button>Profile Link</button>
                             </a>
                         </div>
                         <div className="vertical-desc">
@@ -148,7 +179,19 @@ function Body() {
 
                         </div>
                     </div>
-                    
+                    <div className="vertical">
+                    <h1>5</h1>
+                        <div className="vertical-title">
+                            Coding Ninjas
+                            <a href="https://www.naukri.com/code360/profile/pverma" target="_blank" rel="noopener noreferrer">
+                            <button>Profile Link</button>
+                            </a>
+                        </div>
+                        <div className="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur exercitationem vel molestias sapiente, ut placeat.
+
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
