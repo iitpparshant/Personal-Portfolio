@@ -47,7 +47,7 @@ function Body() {
                             <a href="https://github.com/iitpparshant/Personal-Portfolio" target="_blank" rel="noopener noreferrer">
                                 <button>Github Link</button>
                             </a>
-                            <a href="https://github.com/iitpparshant/movie" target="_blank" rel="noopener noreferrer">
+                            <a href="https://personal-portfolio-two-gules.vercel.app/" target="_blank" rel="noopener noreferrer">
                                 <button>Uploaded Link</button>
                             </a>
                         </div>

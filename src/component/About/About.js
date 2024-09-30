@@ -53,28 +53,28 @@ function About() {
           <div className="profile-card">
             <div className="profile-icon codeforces-icon">&#xeab2;</div>
             <div className="profile-info">
-              <div className="profile-point">&#8226; <a href="https://codeforces.com/profile/your-codeforces-handle" target="_blank" rel="noopener noreferrer">Geeks For Geeks</a></div>
+              <div className="profile-point">&#8226; <a href="https://www.geeksforgeeks.org/user/pvee0ec/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user/" target="_blank" rel="noopener noreferrer">Geeks For Geeks</a></div>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, libero!</p>
           </div>
           <div className="profile-card">
             <div className="profile-icon codeforces-icon">&#xeab2;</div>
             <div className="profile-info">
-              <div className="profile-point">&#8226; <a href="https://codeforces.com/profile/your-codeforces-handle" target="_blank" rel="noopener noreferrer">Codechef</a></div>
+              <div className="profile-point">&#8226; <a href="https://www.codechef.com/users/iitp_parshant" target="_blank" rel="noopener noreferrer">Codechef</a></div>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, libero!</p>
           </div>
           <div className="profile-card">
             <div className="profile-icon codeforces-icon">&#xeab2;</div>
             <div className="profile-info">
-              <div className="profile-point">&#8226; <a href="https://codeforces.com/profile/your-codeforces-handle" target="_blank" rel="noopener noreferrer">Codeforce</a></div>
+              <div className="profile-point">&#8226; <a href="https://codeforces.com/profile/parshant272003" target="_blank" rel="noopener noreferrer">Codeforce</a></div>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, libero!</p>
           </div>
           <div className="profile-card">
             <div className="profile-icon codingninjas-icon">&#xeab3;</div>
             <div className="profile-info">
-              <div className="profile-point">&#8226; <a href="https://www.codingninjas.com/profiles/in/your-coding-ninjas-profile" target="_blank" rel="noopener noreferrer">Coding Ninjas</a></div>
+              <div className="profile-point">&#8226; <a href="https://www.naukri.com/code360/profile/pverma" target="_blank" rel="noopener noreferrer">Coding Ninjas</a></div>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
@@ -99,7 +99,7 @@ function About() {
       <section>
         <h3>Interests</h3>
         <p>
-          In my free time, I enjoy [your hobbies or interests]. 
+          In my free time, I enjoy [your hobbies or interests].
         </p>
       </section>
 
@@ -109,12 +109,13 @@ function About() {
           I actively participate in [any clubs, sports, or organizations] at [Your University].
         </p>
       </section>
-      
+
       <section>
         <h3>Contact</h3>
         <p>
-          Let's connect! You can reach me at <a href="mailto:your.email@example.com">your.email@example.com</a>.
+          Let's connect! You can reach me at <a href="mailto:parshantverma27.2003@gmail.com">parshantverma27.2003@gmail.com</a>.
         </p>
+
       </section>
     </div>
   );
